@@ -1,0 +1,81 @@
+.nav {
+    height: 30vh;
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    top:0
+}
+
+.head {
+    color: white;
+    padding-left: 1rem;
+}
+.star-content {
+    display: flex;
+    align-items: center;
+}
+.star {
+    color: white;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.content {
+    display: flex;
+   justify-content: center;
+}
+
+.lists {
+    padding-top: 30vh;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 1rem;
+    position: fixed;
+}
+
+
+.text { 
+    width: 25rem;
+    height: 2.5rem;
+    padding-bottom: 3rem;
+    background-color: white;
+    border: none;
+}
+
+.text :placeholder-shown {
+    padding-left: 3rem;
+}
+
+.text :enabled {
+    border: none;
+    
+}
+
+.search {
+    position: absolute;
+    z-index: 1;
+    padding-left: 0.5rem;
+    padding-top: 6px;
+}
+
+.content {
+    color: gray;
+}
+
+.btn {
+   display: flex;
+   justify-content: center;
+  
+}
+
+.btn1 {
+    
+    margin-left: 2rem;
+    justify-content: center;
+    
+}
+
